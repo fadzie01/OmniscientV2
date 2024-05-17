@@ -1,0 +1,90 @@
+.game-container {
+  display: grid;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: transparent; /* Set background to transparent */
+  color: #fff; /* Make text whiter */
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .game-container {
+    background-size: cover; /* Scale the image to cover the entire container */
+  }
+}
+
+.text {
+  display: grid;
+  padding: 100px;
+  padding-left: 30px;
+
+
+}
+
+.score-display {
+padding-left: 300px;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px; /* Reduced margin for closer spacing */
+  animation: bounceIn 1s ease-in-out; /* Bounce-in animation for the score display */
+}
+
+.time-display {
+  padding-left: 300px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 20px; /* Adjusted for spacing */
+}
+
+.buttons {
+  padding-left: 245px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  gap: 10px; /* Adjust gap between buttons */
+  margin-top: 20px; /* Adjusted for spacing */
+}
+
+.start-button {
+  padding-left: 70px;
+  padding-right: 300px;
+  padding-top: 20px;
+  font-size: 18px; /* Larger font size for better readability */
+  border: none;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  cursor: pointer;
+  color: blueviolet; /* White text */
+
+}
+.start-button:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover for interactivity */
+}
+.riddle-display{
+  padding-top: 30px;
+  padding-left: 100px;
+  font-style: italic;
+  font-size: larger;
+}
+
+.questions{
+  font-size:larger;
+  width: 1200px;
+  padding-left: 140px;
+  padding-right: 200px;
+  background-color: rgba(0, 0, 0, 0.541);
+
+}
+.answers{
+  width: 900px;
+  padding-left: 200px;
+  padding-top: 110px;
+  font-style: italic;
+  font-size: large;
+  color: rgb(230, 169, 109);
+  
+}

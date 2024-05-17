@@ -1,0 +1,12 @@
+export {default as Home} from './Home';
+export {default as Create} from './Create';
+export {default as Edit} from './Edit';
+export {default as Explore} from './Explore';
+export {default as Games} from './Games';
+export {default as Post} from './Post';
+export {default as Profile} from './Profile';
+export {default as QA} from './QA';
+export {default as Saves} from './Saves';
+export {default as Users} from './Users';
+export {default as Update} from './Update';
+export {default as Experience} from './Experience';
